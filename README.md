@@ -77,3 +77,23 @@ If the current branch has not been pushed yet:
 ```
 git push -u origin HEAD
 ```
+
+<h2>Branching</h2>
+
+<h3>To Create A Branch</h3>
+
+```
+git branch my-branch
+```
+
+<h3>To Switch to a Branch</h3>
+
+```
+git checkout my-branch
+```
+
+<h3>To Switch to a New Branch</h3>
+
+```
+git checkout -b my-branch
+```

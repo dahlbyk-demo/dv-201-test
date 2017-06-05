@@ -18,15 +18,15 @@ git clone https://github.com/my-user/my-project.git
 
 <h3>Add New File or Changes</h3>
 
-Used to tell Git that current changes should be saved in the next commit.
+<p>Used to tell Git that current changes should be saved in the next commit.</p>
 
-To add ("stage") all changes:
+<p>To add ("stage") all changes:</p>
 
 ```
 git add .
 ```
 
-Or you can stage/add individual files:
+<p>Or you can stage/add individual files:</p>
 
 ```
 git add <filename>
@@ -34,17 +34,17 @@ git add <filename>
 
 <h3>Save Change in Git</h3>
 
-To save the added changes into history, commit with a useful, descriptive message.
+<p>To save the added changes into history, commit with a useful, descriptive message.</p>
 
 ```
 git commit -m "This is my message"
 ```
 
 <del>
-**Note:** You can also leave off `-m` to open an editor to type your commit message.
+<strong>Note:</strong> You can also leave off <code>-m</code> to open an editor to type your commit message.
 </del>
 
-To use an editor other than Vim, set `core.editor`:
+To use an editor other than Vim, set <code>core.editor</code>:
 
 ```
 git config --global core.editor "atom --wait"

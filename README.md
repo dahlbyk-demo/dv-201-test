@@ -63,3 +63,17 @@ To review changes that have been added:
 ```
 git diff --staged
 ```
+
+<h3>Push to GitHub</h3>
+
+To push changes on the current branch to its branch on GitHub:
+
+```
+git push
+```
+
+If the current branch has not been pushed yet:
+
+```
+git push -u origin HEAD
+```

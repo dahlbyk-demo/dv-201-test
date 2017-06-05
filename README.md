@@ -80,7 +80,7 @@ git push -u origin HEAD
 
 <h2>Branching</h2>
 
-<h3>To Create A Branch</h3>
+<h3>To Create A Branch **from current location (HEAD)**</h3>
 
 ```
 git branch my-branch
@@ -92,8 +92,22 @@ git branch my-branch
 git checkout my-branch
 ```
 
-<h3>To Switch to a New Branch</h3>
+<h3>To Switch to a New Branch **from `master`**</h3>
+
+```
+git checkout master -b my-branch
+```
+
+<h3>To Switch to a New Branch **from current location (`HEAD`)**</h3>
 
 ```
 git checkout -b my-branch
 ```
+
+<h3>To Delete a Local Branch</h3>
+
+```
+git branch -d my-branch
+```
+
+**Note:** Use `-D` if the branch has not been merged.
